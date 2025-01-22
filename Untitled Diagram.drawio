@@ -4,6 +4,77 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-1" target="XHiVZ7eyR1w0DhLyfMZA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-19" value="PR /MR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHiVZ7eyR1w0DhLyfMZA-3">
+          <mxGeometry x="-0.3222" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-1" value="GitRepo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2" target="XHiVZ7eyR1w0DhLyfMZA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2" target="XHiVZ7eyR1w0DhLyfMZA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2" target="XHiVZ7eyR1w0DhLyfMZA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2" target="XHiVZ7eyR1w0DhLyfMZA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-2" value="GitAction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-4" value="Validate contract (data or Transform)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-7" value="Databricks Repo Sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-9" target="XHiVZ7eyR1w0DhLyfMZA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-9" value="databricks jobs Api 2.0 create workflow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-11" target="XHiVZ7eyR1w0DhLyfMZA-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-11" value="Airflow DAG create and move to S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-13" target="XHiVZ7eyR1w0DhLyfMZA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-13" target="XHiVZ7eyR1w0DhLyfMZA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-13" value="Create workflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-15" value="Create job with Jar and configs and Repo link" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-17" value="Create job with dbt and configs and repo link" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-11" target="XHiVZ7eyR1w0DhLyfMZA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHiVZ7eyR1w0DhLyfMZA-22" value="Run the job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XHiVZ7eyR1w0DhLyfMZA-20">
+          <mxGeometry x="-0.2569" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
