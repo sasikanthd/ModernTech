@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="WDgxBWxF3H831WsXETDw">
-    <mxGraphModel dx="3544" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3069" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,14 +36,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z7QtTftO9WlhnwjgHr6w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2">
+        <mxCell id="Z7QtTftO9WlhnwjgHr6w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHiVZ7eyR1w0DhLyfMZA-2" target="Z7QtTftO9WlhnwjgHr6w-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="330" as="sourcePoint" />
             <mxPoint x="550" y="780" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="330" />
               <mxPoint x="30" y="330" />
-              <mxPoint x="30" y="780" />
+              <mxPoint x="30" y="740" />
+              <mxPoint x="540" y="740" />
+              <mxPoint x="540" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,7 +134,7 @@
           <mxGeometry x="90" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-8" value="DB/Snowflake platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="705" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-10" value="Customer validation ; dbt validation aganist platform ; dbt docs; github pages. meta data updates; Acces control aganist Platforms; SQL excetion API for SQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="380" width="120" height="60" as="geometry" />
@@ -153,16 +155,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-15" value="ACS from service now after approvals; validation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="-80" y="885" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-17" value="service now" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="-390" y="875" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z7QtTftO9WlhnwjgHr6w-18" target="Z7QtTftO9WlhnwjgHr6w-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="790" width="30" height="60" as="geometry" />
+          <mxGeometry x="-360" y="745" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z7QtTftO9WlhnwjgHr6w-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z7QtTftO9WlhnwjgHr6w-17" target="Z7QtTftO9WlhnwjgHr6w-15">
           <mxGeometry relative="1" as="geometry" />
