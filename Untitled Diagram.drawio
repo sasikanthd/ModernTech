@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.4" pages="7">
   <diagram name="Platform" id="WDgxBWxF3H831WsXETDw">
     <mxGraphModel dx="1834" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -549,6 +549,44 @@
         </mxCell>
         <mxCell id="dlDUT9pskF8nB0lHr9r6-13" value="1) THere are limitations with Large Data volumes&lt;div&gt;2) Table name siwth Captial letter to to converted to lower case in Unity Catalog&lt;/div&gt;&lt;div&gt;3) Invalid will be names will be dropped&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="dlDUT9pskF8nB0lHr9r6-10">
           <mxGeometry y="30" width="290" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cHrmGP8z5HQ0BSWmL134" name="Page-7">
+    <mxGraphModel dx="923" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-1" value="We Write Our Code call&amp;nbsp; my lib a+b&amp;nbsp;&lt;div&gt;it return u c and u use that C&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="145" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-2" value="Spark APIs(c= a+b)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;( read file, clean, join, order by, rturn the data set )&lt;/div&gt;&lt;div&gt;&amp;nbsp;dataFrame= spark.read.csv(path)&lt;/div&gt;&lt;div&gt;dataFrame.join(other Dateframe).&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-3" value="Java/Scala/Python&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="FclarFJi-3hAXPMhZ-Vv-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="500" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-6" value="Assembly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-7" value="1/0 run son Machine&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FclarFJi-3hAXPMhZ-Vv-8" value="Age&lt;div&gt;Name,&lt;/div&gt;&lt;div&gt;Grade&lt;/div&gt;&lt;div&gt;Place of Living&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="120" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
